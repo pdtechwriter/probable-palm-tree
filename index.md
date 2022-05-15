@@ -6,7 +6,7 @@ layout: demo_template
 
 # Introduction
 
-This website was creatd in {{page.year}}.
+This website was created in {{page.year}} by {{site.author}}.
 
 ## Who am I?
 
