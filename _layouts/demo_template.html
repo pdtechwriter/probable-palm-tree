@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head></head>
+<head>
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+</head>
   <body>  
     <main>
-	<header>{{page.year}}</header>
+	<header>&copy; {{page.year}}, {{site.author}}</header>
 	<nav>
 	<a href="page1.html">Page 1</a>
 	<a href="page2.html">Page 2</a>
@@ -12,6 +14,6 @@
         {{ content }}
       </div>
     </main>   
-	<footer>{{site.author}}</footer>
+	<footer>{ % include footer.txt % }</footer>
   </body>
 </html>
