@@ -1,12 +1,10 @@
 ---
-year: 326 BC
 layout: demo_template
 ---
 
-
 # Introduction
 
-This website was created in {{page.year}} by {{site.author}}.
+Random list
 
 {% for item in site.data.chronology %}
 - {{ item.name }}, {{ item.year }}

@@ -5,15 +5,16 @@
 </head>
   <body>  
     <main>
-	<header>&copy; {{page.year}}, {{site.author}}</header>
+	<header>&copy; {{site.year}}, {{site.author}}</header>
 	<nav>
+	<a href="index.html">Home</a>
 	<a href="page1.html">Page 1</a>
 	<a href="page2.html">Page 2</a>
-	</nav>
+	</nav><hr/>
       <div>
         {{ content }}
       </div>
     </main>   
-	<footer>{ % include footer.txt % }</footer>
+	<footer>{% include footer.txt %}</footer>
   </body>
 </html>
