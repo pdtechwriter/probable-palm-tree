@@ -1,4 +1,7 @@
+h1, h2, h3, h4, h5, h6 {color:#9E3942;}
+
 body {
-	line-height: 150%;
-	font-family: Verdana;
+	line-height: 190%;
+	padding-left: 50px;
+	font-family: Verdana, Helvetica;
 }
